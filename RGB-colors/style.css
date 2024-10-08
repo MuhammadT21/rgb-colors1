@@ -1,0 +1,73 @@
+html {
+  background: purple;
+}
+
+body {
+  background: white;
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px 50px;
+}
+
+#div-container {
+  border: 2px solid green;
+  background: lightgreen;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+#span1 {
+  text-decoration: underline;
+  color: blue;
+}
+
+#div-container2 {
+  border: 2px solid blue;
+  background: lightblue;
+  text-align: center;
+}
+
+#span2 {
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+/* group together the span section in a div. give it a blue border and light blue background. center the text */
+/* Target the words in div section: "group elements together". give them 1px solid black border with a 5px border radius */
+
+#input-container {
+  border: 2px solid red;
+  background: pink;
+  margin-top: 20px;
+  text-align: center;
+}
+
+input {
+  width: 150px;
+  padding: 5px 10px;
+  text-align: center;
+  font-size: 16px;
+  transition: background 1s;
+}
+
+input:hover {
+  background: black;
+  color: white;
+  transition: background 1s;
+}
+
+/* add a hover effect to the button */
+/* add a trasnitoin effect to the button */
+
+button {
+  background: black;
+  color: white;
+  transition: background 1s;
+}
+
+button:hover {
+  background: black;
+  color: white;
+  transition: background 1s;
+}
